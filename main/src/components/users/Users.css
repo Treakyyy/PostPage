@@ -1,0 +1,27 @@
+.containerUsers{
+    height: 81.8vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.contentUsers{
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.postUser{
+    border: 1px solid black;
+    width: 75%;
+}
+.btnUser{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btnUser:hover{
+    color: cornflowerblue;
+    text-decoration: underline;
+}

@@ -1,0 +1,30 @@
+.containerAbout{
+    height: 81.8vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.contentAbout{
+    padding-top: 30px;
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.loader{
+    height: 86vh;
+}
+.progress{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.aboutMe{
+    width: 75%;
+}
+.aboutMeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
