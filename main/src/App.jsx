@@ -11,10 +11,10 @@ function App() {
         <BrowserRouter>
           <div className="App">
             <Routes>
-              <Route path='https://treakyyy.github.io/test_for_mitrasoft/' element={<Burger/>} />
-              <Route path='https://treakyyy.github.io/test_for_mitrasoft/posts' element={<MainPage/>} />
-              <Route path='https://treakyyy.github.io/test_for_mitrasoft/about' element={<About />} />
-              <Route path='https://treakyyy.github.io/test_for_mitrasoft/users/:id' element={<Users />} />
+              <Route path='treakyyy.github.io/test_for_mitrasoft/' element={<Burger/>} />
+              <Route path='treakyyy.github.io/test_for_mitrasoft/posts' element={<MainPage/>} />
+              <Route path='treakyyy.github.io/test_for_mitrasoft/about' element={<About />} />
+              <Route path='treakyyy.github.io/test_for_mitrasoft/users/:id' element={<Users />} />
             </Routes>
           </div>
         </BrowserRouter>
