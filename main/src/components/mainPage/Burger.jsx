@@ -23,10 +23,10 @@ const Burger = () => {
                     <nav className='nav'>
                         {isLoader ? <div>Loading...</div> :
                         <ul>
-                        <Link to='/posts'>
+                        <Link to='https://treakyyy.github.io/test_for_mitrasoft/posts'>
                             <li><button className='btnBurger' onClick={() => dispatch(fetchCustomers())}>Посты</button></li>
                         </Link> 
-                        <Link to='/about'>
+                        <Link to='https://treakyyy.github.io/test_for_mitrasoft/about'>
                             <li><button className='btnBurger'>Обо мне</button></li>
                         </Link>    
                         </ul>}
