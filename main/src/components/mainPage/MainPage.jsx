@@ -39,7 +39,7 @@ const MainPage = () => {
                 {customers.map((customer) => 
                     <div key={customer.id} className='content'>
                         <div className='photoAndTitle'>
-                        <Link key={customer.id} to={`https://treakyyy.github.io/test_for_mitrasoft/users/${customer.id}`}><img className='photo' src="photo.jpg" alt="" /></Link>
+                        <Link key={customer.id} to={`/users/${customer.id}`}><img className='photo' src="photo.jpg" alt="" /></Link>
                             {customer.title}
                         </div>
                         <p className='bodyContent'>{customer.body}</p>
