@@ -31,7 +31,7 @@ const Users = () => {
                     <p>Пользователь: {posts.id}</p>
                     <span>Посты пользователя:</span>
                     <div className='postUser'>{posts.body}</div>
-                    <Link to='treakyyy.github.io/test_for_mitrasoft/'><button className='btnUser'>Назад</button></Link>
+                    <Link to='https://treakyyy.github.io/test_for_mitrasoft/'><button className='btnUser'>Назад</button></Link>
                 </div>)}
             </div>}
         </div>
