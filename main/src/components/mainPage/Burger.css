@@ -9,7 +9,7 @@
 }
 .nav{
     display: flex;
-    width: 1300px;
+    gap: 16.5rem;
     padding: 0 40px;
 }
 .nav ul {
@@ -65,4 +65,9 @@
 .burger.active::after{
     bottom: 50%;
     transform: rotate(45deg) translate(0, 50%);
+}
+.info{
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
