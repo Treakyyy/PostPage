@@ -11,7 +11,7 @@ function App() {
         <BrowserRouter>
           <div className="App">
             <Routes>
-              <Route path='treakyyy.github.io/test_for_mitrasoft/' element={<Burger/>} />
+              <Route path='https://treakyyy.github.io/test_for_mitrasoft/' element={<Burger/>} />
               <Route path='/posts' element={<MainPage/>} />
               <Route path='/about' element={<About />} />
               <Route path='/users/:id' element={<Users />} />
