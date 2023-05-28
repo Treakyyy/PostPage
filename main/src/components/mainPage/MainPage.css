@@ -57,15 +57,16 @@
 .close{
     width: 10px;
     height: 10px;
+    cursor: pointer;
 }
 .select{
     margin-bottom: 20px;
 }
 
-@media screen and (max-wigth: 576px){
+@media screen and (max-width: 576px){
     .content{
-        width: 100px;
-        border: 1px solid black;
+        width: 200px;
+        border: 1px solid red;
         display: flex;
         flex-direction: column;
     }

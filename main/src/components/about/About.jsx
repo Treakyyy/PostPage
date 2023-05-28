@@ -1,5 +1,5 @@
-import Burger from '../mainPage/Burger'
 import './About.css'
+import Burger from '../../UI/Burger/Burger'
 import { useState, useEffect } from 'react'
 
 

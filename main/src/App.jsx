@@ -1,9 +1,9 @@
 import './App.css';
 import {HashRouter, Route, Routes} from 'react-router-dom'
-import MainPage from './components/mainPage/MainPage';
-import Burger from './components/mainPage/Burger';
-import About from './components/about/About';
-import Users from './components/users/Users';
+import MainPage from './components/MainPage/MainPage';
+import About from './components/About/About';
+import Users from './components/Users/Users';
+import Burger from './UI/Burger/Burger';
 function App() {
 
 

@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router-dom'
-import Burger from '../mainPage/Burger'
+import Burger from '../../UI/Burger/Burger'
 import './Users.css'
 import { useState, useEffect } from 'react'
 
