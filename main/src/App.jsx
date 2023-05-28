@@ -10,8 +10,9 @@ function App() {
       return (
         <BrowserRouter>
           <div className="App">
+            <div>PIZDEC</div>
             <Routes>
-              <Route path='https://treakyyy.github.io/test_for_mitrasoft/' element={<Burger/>} />
+              <Route path='/' element={<Burger/>} />
               <Route path='/posts' element={<MainPage/>} />
               <Route path='/about' element={<About />} />
               <Route path='/users/:id' element={<Users />} />
