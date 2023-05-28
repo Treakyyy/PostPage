@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import {HashRouter, Route, Routes} from 'react-router-dom'
 import MainPage from './components/mainPage/MainPage';
 import Burger from './components/mainPage/Burger';
 import About from './components/about/About';
@@ -8,17 +8,16 @@ function App() {
 
 
       return (
-        <BrowserRouter>
+        <HashRouter basename='/'>
           <div className="App">
-            <div>PIZDEC</div>
             <Routes>
-              <Route path='/' element={<Burger/>} />
               <Route path='/posts' element={<MainPage/>} />
               <Route path='/about' element={<About />} />
               <Route path='/users/:id' element={<Users />} />
+              <Route path='/' element={<Burger/>} />
             </Routes>
           </div>
-        </BrowserRouter>
+        </HashRouter>
       );
     }
 
