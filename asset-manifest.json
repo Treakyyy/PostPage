@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/test_for_mitrasoft/static/css/main.c5899dda.css",
-    "main.js": "/test_for_mitrasoft/static/js/main.16cfcde1.js",
+    "main.css": "/test_for_mitrasoft/static/css/main.e4b22de7.css",
+    "main.js": "/test_for_mitrasoft/static/js/main.d312e21a.js",
+    "static/media/loader.svg": "/test_for_mitrasoft/static/media/loader.4dcedbdb6bf59fcc81a9d173db5eeadb.svg",
     "index.html": "/test_for_mitrasoft/index.html",
     "static/media/closeIcon.svg": "/test_for_mitrasoft/static/media/closeIcon.d5c5365f7f3f45b5b5e7873c7a5ccddd.svg",
-    "main.c5899dda.css.map": "/test_for_mitrasoft/static/css/main.c5899dda.css.map",
-    "main.16cfcde1.js.map": "/test_for_mitrasoft/static/js/main.16cfcde1.js.map"
+    "main.e4b22de7.css.map": "/test_for_mitrasoft/static/css/main.e4b22de7.css.map",
+    "main.d312e21a.js.map": "/test_for_mitrasoft/static/js/main.d312e21a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5899dda.css",
-    "static/js/main.16cfcde1.js"
+    "static/css/main.e4b22de7.css",
+    "static/js/main.d312e21a.js"
   ]
 }
