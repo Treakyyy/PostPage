@@ -28,7 +28,9 @@ const Post = ({ post }) => {
         <div className='content'>
             <div className='photoAndTitle'>
                 <Link key={post.id} to={`/users/${post.id}`}><img className='photo' src="photo.jpg" alt="" /></Link>
+                <div className='title'>
                     {post.title}
+                </div>
                 </div>
                 <p className='bodyContent'>{post.body}</p>
                 <div className='comment'>
@@ -37,11 +39,11 @@ const Post = ({ post }) => {
                 {isOpen &&
                 <div className='containerComment'>
                     {comment.map((comments) =>
-                        <div key={comments.id} className='email'>
-                            <div>
+                        <div key={comments.id} className='contentComment'>
+                            <div className='emailComment'>
                                 {comments.email}
                             </div>
-                            <div>
+                            <div className='bodyComment'>
                                 {comments.body}
                             </div>
                         </div>

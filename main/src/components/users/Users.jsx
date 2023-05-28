@@ -2,6 +2,7 @@ import { Link, useParams } from 'react-router-dom'
 import Burger from '../../UI/Burger/Burger'
 import './Users.css'
 import { useState, useEffect } from 'react'
+import Loader from '../../UI/icons/Loader'
 
 const Users = () => {
     const {id} = useParams()
@@ -24,13 +25,13 @@ const Users = () => {
     return(
         <div>
             <Burger />
-            {isLoader ? <div className='loader'>Loading...</div> :
-            <div className='containerUsers'>
+            {isLoader ? <div className='loader'><Loader /></div> :
+            <div className='userContainer'>
                 {posts && (
-                <div className='contentUsers'>
-                    <p>Пользователь: {posts.id}</p>
-                    <span>Посты пользователя:</span>
-                    <div className='postUser'>{posts.body}</div>
+                <div className='userContent'>
+                    <p className='userTitle'>Пользователь: {posts.id}</p>
+                    <span className='userInfo'>Посты пользователя:</span>
+                    <div className='userPost'>{posts.body}</div>
                     <Link to='/'><button className='btnUser'>Назад</button></Link>
                 </div>)}
             </div>}

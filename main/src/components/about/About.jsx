@@ -1,6 +1,7 @@
 import './About.css'
 import Burger from '../../UI/Burger/Burger'
 import { useState, useEffect } from 'react'
+import Loader from '../../UI/icons/Loader'
 
 
 const About = () => {
@@ -17,10 +18,10 @@ const About = () => {
     return(
         <div>
             <Burger/>
-            {isLoader ? <div className='loader'>Loading...</div> :
+            {isLoader ? <div className='loader'><Loader/></div> :
             <div className='containerAbout'>
                 <div className='contentAbout'>
-                    <header>
+                    <header className='me'>
                         Всем привет я Суворов Михаил
                     </header>
                     <div className='aboutMeContainer'>
@@ -31,6 +32,7 @@ const About = () => {
                             Общительный и харизматичный, умею находить общий язык с людьми, а также я любознательный и спортивный
                         </div>
                     <br />
+                    <div className='skills'>
                         <p>Профессиональные навыки: </p>
                         Начал изучать Web разработку в 2021
                         <br />
@@ -41,6 +43,7 @@ const About = () => {
                         Также имеется опыт: Адаптивной верстки
                         <br />
                         Люблю изучать новое, создавать красивые интерфейсы и рефакторить код!
+                    </div>
                     </div>
                     <div className='progress'>
                         <div>

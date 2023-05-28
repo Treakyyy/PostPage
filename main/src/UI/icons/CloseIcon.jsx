@@ -4,7 +4,7 @@ import './CloseIcon.css'
 
 const CloseIcon = () => {
     return(
-        <img className='svg' src={closeIcon} alt="" />
+        <img className='svgClose' src={closeIcon} alt="" />
     )
 }
 

@@ -1,14 +1,14 @@
-import { useDispatch, useSelector } from 'react-redux'
+import {  useSelector } from 'react-redux'
 import './MainPage.css'
 import { useState, useEffect } from 'react'
 import Burger from '../../UI/Burger/Burger'
 import Pagination from '../../UI/Pagination'
 import MainPageControls from './MainPageControls/MainPageControls'
 import Post from './Post/Post'
+import Loader from '../../UI/icons/Loader'
 
 
 const MainPage = () => {
-    const dispatch = useDispatch()
 
     const [selectedSort, setSelectedSort] = useState('')
     const [searchQuery, setSearchQuery] = useState('')
@@ -54,7 +54,7 @@ const MainPage = () => {
                     selectedSort={selectedSort} 
                     sortPosts={sortPosts} 
                 />
-            {isLoader ? <div className='loader'>Loading...</div> :
+            {isLoader ? <div className='loader'><Loader /></div> :
                 <>
                 {filterPosts.map((post) => 
                    <Post post={post} />

@@ -1,27 +1,53 @@
-.containerUsers{
-    height: 81.8vh;
+.userContainer{
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
-.contentUsers{
-    border: 1px solid black;
+.userContent{
+    border: 2px solid #3E424B;
+    border-radius: 10px;
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
-.postUser{
-    border: 1px solid black;
+.userPost{
+    border: 1px solid #3E424B;
+    padding: 15px 15px 15px 25px;
+    font-weight: 500;
+    text-align: left;
+    color: #3E424B;
     width: 75%;
+    border-radius: 10px;
 }
 .btnUser{
-    border: none;
-    background-color: transparent;
+    width: 100px;
+    height: 30px;
+    background-color: #3E424B;
+    color: #FAF6F2;
     cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 .btnUser:hover{
-    color: cornflowerblue;
-    text-decoration: underline;
+    background-color: #1c1e21;
+    color: #FAF6F2;
+}
+.userTitle{
+    font-weight: 800;
+    color: #1c1e21;
+}
+.userInfo{
+    font-weight: 600;
+    color: #1c1e21;
+}
+@media screen and (max-width: 576px) {
+    .userContainer{
+        margin-left: 165px;
+        width: 385px;
+    }
+    .userPost{
+        width: 115px;
+    }
 }

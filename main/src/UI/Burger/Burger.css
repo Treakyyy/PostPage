@@ -71,3 +71,17 @@
     align-items: center;
     gap: 15px;
 }
+@media screen and (max-width: 768px){
+    .containerMenu{
+        width: 768px;
+    }
+    .btnBurgerMenu{
+        padding-left: 150px;
+    }
+    .info{
+        display: none;
+    }
+    .burger{
+        display: none;
+    }
+}

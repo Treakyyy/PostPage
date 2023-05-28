@@ -19,14 +19,16 @@ const Burger = () => {
                             <span>Михаил</span>
                             <span>001suvorov@mail.ru</span>
                         </div>
-                        <ul>
-                        <Link to='/posts'>
-                            <li><button className='btnBurger' onClick={() => dispatch(fetchCustomers())}>Посты</button></li>
-                        </Link> 
-                        <Link to='/about'>
-                            <li><button className='btnBurger'>Обо мне</button></li>
-                        </Link>    
-                        </ul>
+                        <div className='btnBurgerMenu'>
+                            <ul>
+                            <Link to='/posts'>
+                                <li><button className='btnBurger' onClick={() => dispatch(fetchCustomers())}>Посты</button></li>
+                            </Link> 
+                            <Link to='/about'>
+                                <li><button className='btnBurger'>Обо мне</button></li>
+                            </Link>    
+                            </ul>
+                        </div>
                     </nav>
                     <div className="burger">
                         <span></span>

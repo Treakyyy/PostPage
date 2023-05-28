@@ -1,0 +1,19 @@
+.controlContainer{
+    display: flex;
+    gap: 25rem;
+    margin-bottom: 20px;
+}
+.controlInput{
+    display: flex;
+    align-items: center;
+}
+.input{
+    border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+    .controlContainer{
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 20px;
+    }
+}
